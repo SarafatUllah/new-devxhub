@@ -9,7 +9,8 @@ useSeoMeta({
   description: () => description.slice(0, 300),
   ogDescription: () => description.slice(0, 300),
 });
-const { data: WhyChooses } = useFetch<WhyChooseUs[]>("/api/posts/whyChoose");
+// const { data: WhyChooses } = useFetch<WhyChooseUs[]>("/api/posts/whyChoose");
+const WhyChooses = ref(null)
 
 // const facilities = ref([]);
 // const facilities1 = ref([]);
