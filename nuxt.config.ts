@@ -118,21 +118,21 @@ export default defineNuxtConfig({
   //   },
   // },
 
-  nitro: {
-    // preset: process.env.NITRO_PRESET || "node-cluster",
-    storage: {
-      cache: {
-        driver: "redis",
-        url: process.env.NUXT_PUBLIC_REDIS_URL,
-      },
-    },
-    devStorage: {
-      cache: {
-        driver: "fs",
-        base: "./data/cache",
-      },
-    },
-  },
+  // nitro: {
+  //   // preset: process.env.NITRO_PRESET || "node-cluster",
+  //   storage: {
+  //     cache: {
+  //       driver: "redis",
+  //       url: process.env.NUXT_PUBLIC_REDIS_URL,
+  //     },
+  //   },
+  //   devStorage: {
+  //     cache: {
+  //       driver: "fs",
+  //       base: "./data/cache",
+  //     },
+  //   },
+  // },
 
   googleFonts: {
     families: {

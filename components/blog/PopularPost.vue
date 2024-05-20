@@ -1,4 +1,5 @@
 <script lang="ts" setup>
+import { NULL } from "sass";
 import { Post } from "~/types/posts";
 
 // const { data: PopularPost } = useFetch<Post>("/api/blogs/popularPost");
