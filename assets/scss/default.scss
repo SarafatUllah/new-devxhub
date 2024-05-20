@@ -1,0 +1,450 @@
+// @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800&display=swap");
+// @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+// @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap");
+
+@font-face {
+  font-family: "Comfortaa";
+  font-weight: bold;
+  font-style: normal;
+  src: url("/fonts/Comfortaa-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Comfortaa";
+  font-weight: 300;
+  font-style: normal;
+  src: url("/fonts/Comfortaa-Light.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Comfortaa";
+  font-weight: 400;
+  font-style: normal;
+  src: url("/fonts/Comfortaa-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "SF UI Display";
+  font-weight: 100;
+  font-style: normal;
+  src: url("/fonts/sf-ui-display-thin.woff") format("woff");
+}
+@font-face {
+  font-family: "SF UI Display";
+  font-weight: 200;
+  font-style: normal;
+  src: url("/fonts/sf-ui-display-ultralight.woff") format("woff");
+}
+@font-face {
+  font-family: "SF UI Display";
+  font-weight: 300;
+  font-style: normal;
+  src: url("/fonts/sf-ui-display-light.woff") format("woff");
+}
+@font-face {
+  font-family: "SF UI Display";
+  font-weight: 400;
+  font-style: normal;
+  src: url("/fonts/sf-ui-display-medium.woff") format("woff");
+}
+@font-face {
+  font-family: "Sohne";
+  font-weight: 500;
+  font-style: normal;
+  src: url("/fonts/test-söhne/test-soehne-fett.woff2") format("woff2");
+}
+@font-face {
+  font-family: "SF UI Display";
+  font-weight: 600;
+  font-style: normal;
+  src: url("/fonts/sf-ui-display-semibold.woff") format("woff");
+}
+@font-face {
+  font-family: "SF UI Display";
+  font-weight: 700;
+  font-style: normal;
+  src: url("/fonts/sf-ui-display-bold.woff") format("woff");
+}
+@font-face {
+  font-family: "SF UI Display";
+  font-weight: 800;
+  font-style: normal;
+  src: url("/fonts/sf-ui-display-black.woff") format("woff");
+}
+@font-face {
+  font-family: "SF UI Display";
+  font-weight: 900;
+  font-style: normal;
+  src: url("/fonts/sf-ui-display-heavy.woff") format("woff");
+}
+@font-face {
+  font-family: "Sohne";
+  font-weight: 200;
+  font-style: normal;
+  src: url("/fonts/test-söhne/test-soehne-extraleicht.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Sohne";
+  font-weight: 200;
+  font-style: italic;
+  src: url("/fonts/test-söhne/test-soehne-extrafett-kursiv.woff2")
+    format("woff2");
+}
+@font-face {
+  font-family: "Sohne";
+  font-weight: 300;
+  font-style: normal;
+  src: url("/fonts/test-söhne/test-soehne-leicht.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Sohne";
+  font-weight: 300;
+  font-style: italic;
+  src: url("/fonts/test-söhne/test-soehne-leicht-kursiv.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Sohne";
+  font-weight: 400;
+  font-style: normal;
+  src: url("/fonts/test-söhne/test-soehne-buch.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Sohne";
+  font-weight: 400;
+  font-style: italic;
+  src: url("/fonts/test-söhne/test-soehne-buch-kursiv.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Sohne";
+  font-weight: 500;
+  font-style: normal;
+  src: url("/fonts/test-söhne/test-soehne-kraftig.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Sohne";
+  font-weight: 500;
+  font-style: italic;
+  src: url("/fonts/test-söhne/test-soehne-kraftig-kursiv.woff2")
+    format("woff2");
+}
+@font-face {
+  font-family: "Sohne";
+  font-weight: 600;
+  font-style: normal;
+  src: url("/fonts/test-söhne/test-soehne-halbfett.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Sohne";
+  font-weight: 600;
+  font-style: italic;
+  src: url("/fonts/test-söhne/test-soehne-halbfett-kursiv.woff2")
+    format("woff2");
+}
+@font-face {
+  font-family: "Sohne";
+  font-weight: 600;
+  font-style: normal;
+  src: url("/fonts/test-söhne/test-soehne-dreiviertelfett.woff2")
+    format("woff2");
+}
+@font-face {
+  font-family: "Sohne";
+  font-weight: 600;
+  font-style: italic;
+  src: url("/fonts/test-söhne/test-soehne-dreiviertelfett-kursiv.woff2")
+    format("woff2");
+}
+@font-face {
+  font-family: "Sohne";
+  font-weight: 700;
+  font-style: normal;
+  src: url("/fonts/test-söhne/test-soehne-fett.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Sohne";
+  font-weight: 700;
+  font-style: italic;
+  src: url("/fonts/test-söhne/test-soehne-fett-kursiv.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Helvetica Neue";
+  font-weight: 100;
+  font-style: normal;
+  src: url("/fonts/helvetica-neue/HelveticaNeueUltraLight.ttf")
+    format("truetype");
+}
+@font-face {
+  font-family: "Helvetica Neue";
+  font-weight: 200;
+  font-style: normal;
+  src: url("/fonts/helvetica-neue/HelveticaNeue-Thin.otf") format("opentype");
+}
+@font-face {
+  font-family: "Helvetica Neue";
+  font-weight: 300;
+  font-style: normal;
+  src: url("/fonts/helvetica-neue/HelveticaNeue-Light.otf") format("opentype");
+}
+@font-face {
+  font-family: "Helvetica Neue";
+  font-weight: 400;
+  font-style: normal;
+  src: url("/fonts/helvetica-neue/HelveticaNeue-Medium.otf") format("opentype");
+}
+@font-face {
+  font-family: "Helvetica Neue";
+  font-weight: 400;
+  font-style: normal;
+  src: url("/fonts/helvetica-neue/HelveticaNeue-Roman.otf") format("opentype");
+}
+@font-face {
+  font-family: "Helvetica Neue";
+  font-weight: 500;
+  font-style: normal;
+  src: url("/fonts/helvetica-neue/HelveticaNeue-Medium.otf") format("opentype");
+}
+@font-face {
+  font-family: "Helvetica Neue";
+  font-weight: 700;
+  font-style: normal;
+  src: url("/fonts/helvetica-neue/HelveticaNeueBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Helvetica Neue";
+  font-weight: 800;
+  font-style: normal;
+  src: url("/fonts/helvetica-neue/HelveticaNeue-Heavy.otf") format("opentype");
+}
+@font-face {
+  font-family: "Helvetica Neue";
+  font-weight: 900;
+  font-style: normal;
+  src: url("/fonts/helvetica-neue/HelveticaNeue-Black.otf") format("opentype");
+}
+@font-face {
+  font-family: "Helvetica";
+  font-weight: 400;
+  font-style: normal;
+  src: url("/fonts/Helvetica-Font/Helvetica.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Helvetica";
+  font-weight: 400;
+  font-style: italic;
+  src: url("/fonts/Helvetica-Font/Helvetica-Oblique.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Helvetica";
+  font-weight: 300;
+  font-style: normal;
+  src: url("/fonts/Helvetica-Font/helvetica-light-587ebe5a59211.ttf")
+    format("truetype");
+}
+@font-face {
+  font-family: "Helvetica";
+  font-weight: bold;
+  font-style: normal;
+  src: url("/fonts/Helvetica-Font/Helvetica-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Helvetica";
+  font-weight: bold;
+  font-style: italic;
+  src: url("/fonts/Helvetica-Font/Helvetica-BoldOblique.ttf")
+    format("truetype");
+}
+@font-face {
+  font-family: "Source Serif Pro";
+  font-weight: 100;
+  font-style: normal;
+  src: url("/fonts/source-serif-pro/SourceSerifPro-ExtraLight.otf")
+    format("opentype");
+}
+@font-face {
+  font-family: "Source Serif Pro";
+  font-weight: 300;
+  font-style: normal;
+  src: url("/fonts/source-serif-pro/SourceSerifPro-Light.otf")
+    format("opentype");
+}
+@font-face {
+  font-family: "Source Serif Pro";
+  font-weight: 400;
+  font-style: normal;
+  src: url("/fonts/source-serif-pro/SourceSerifPro-Regular.otf")
+    format("opentype");
+}
+@font-face {
+  font-family: "Source Serif Pro";
+  font-weight: 500;
+  font-style: normal;
+  src: url("/fonts/source-serif-pro/SourceSerifPro-Semibold.otf")
+    format("opentype");
+}
+@font-face {
+  font-family: "Source Serif Pro";
+  font-weight: 700;
+  font-style: normal;
+  src: url("/fonts/source-serif-pro/SourceSerifPro-Bold.otf")
+    format("opentype");
+}
+@font-face {
+  font-family: "Source Serif Pro";
+  font-weight: 900;
+  font-style: normal;
+  src: url("/fonts/source-serif-pro/SourceSerifPro-Black.otf")
+    format("opentype");
+}
+@font-face {
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: normal;
+  src: url("/fonts/georgia/georgia.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: bold;
+  src: url("/fonts/georgia/georgiab.woff") format("woff");
+}
+@font-face {
+  font-family: "Cambria";
+  font-style: normal;
+  font-weight: normal;
+  src: url("/fonts/Cambria/Camber-Regular.otf") format("opentype");
+}
+@font-face {
+  font-family: "Cambria";
+  font-style: normal;
+  font-weight: bold;
+  src: url("/fonts/Cambria/Cambria-Bold-700.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Times New Roman";
+  font-style: normal;
+  font-weight: normal;
+  src: url("/fonts/Times-New-Roman/times-new-roman.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Times New Roman";
+  font-style: normal;
+  font-weight: bold;
+  src: url("/fonts/Times-New-Roman/times-new-roman-bold.ttf")
+    format("truetype");
+}
+@font-face {
+  font-family: "Times";
+  font-style: normal;
+  font-weight: normal;
+  src: url("/fonts/times/vni-common-VTIMESN.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Times";
+  font-style: normal;
+  font-weight: bold;
+  src: url("/fonts/times/vni-common-VTIMESB.ttf") format("truetype");
+}
+
+html {
+  // font-family: "Inter", sans-serif;
+  font-family: "Sohne", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  overflow-x: hidden;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Sohne", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  // font-family: "Poppins", sans-serif;
+  // font-family: "Quicksand", sans-serif;
+}
+.career-details {
+  ol,
+  ul {
+    @apply ml-5 list-disc;
+  }
+}
+.carousel__pagination-button {
+  padding: 18px !important;
+}
+.carousel__pagination-button::after {
+  background-color: white !important;
+  width: 12px !important;
+  height: 12px !important;
+  border-radius: 6px !important;
+}
+.carousel__pagination-button--active::after {
+  background-color: #fdb21d !important;
+}
+.container {
+  padding: 0 20px !important;
+  width: 100% !important;
+  @apply mx-auto #{!important};
+}
+@media (min-width: 768px) {
+  .container {
+    padding: 0 32px !important;
+  }
+}
+@media (min-width: 1024px) {
+  .container {
+    padding: 0 64px !important;
+  }
+}
+@media (min-width: 1280px) {
+  .container {
+    padding: 0 80px !important;
+  }
+}
+@media (min-width: 1440px) {
+  .container {
+    max-width: 1366px !important;
+  }
+}
+.ball {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #28323b;
+  position: absolute;
+  animation: up 5s cubic-bezier(0.18, 0.89, 0.32, 1.28) infinite;
+
+  @media only screen and (max-width: 700px) {
+    animation: up-small 5s cubic-bezier(0.18, 0.89, 0.32, 1.28) infinite;
+  }
+}
+@keyframes up {
+  0% {
+    bottom: 0px;
+    width: 100px;
+    height: 100px;
+  }
+  50% {
+    bottom: 200px;
+  }
+  100% {
+    bottom: 0px;
+    width: 0px;
+    height: 0px;
+  }
+}
+
+@keyframes up-small {
+  0% {
+    bottom: 0px;
+    width: 100px;
+    height: 100px;
+  }
+  50% {
+    bottom: 150px;
+  }
+  100% {
+    bottom: 0px;
+    width: 0px;
+    height: 0px;
+  }
+}
+
+.alert_error {
+  background-color: #791714;
+}

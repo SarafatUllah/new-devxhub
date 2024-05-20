@@ -1,0 +1,11 @@
+.text-area {
+  label {
+    color: var(--labelColor);
+    @apply block mb-1.5;
+  }
+  textarea {
+    color: var(--color);
+    background-color: var(--background);
+    @apply w-full py-2 px-4;
+  }
+}

@@ -1,0 +1,102 @@
+.contact-wrapper {
+  @apply justify-center lg:justify-between;
+}
+.appointment-address {
+  height: auto;
+  // width: 610px;
+  min-height: 622px;
+}
+.details {
+  max-width: 230px;
+}
+.social-icon {
+  @apply w-13 h-13;
+}
+@media (min-width: 2048px) and (max-width: 2560px) {
+  .contact-area {
+    padding-left: 14%;
+    padding-right: 14%;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1230px) {
+  .contact-area {
+    padding-left: 7%;
+    padding-right: 7%;
+  }
+  .appointment-address {
+    // width: 602px;
+    min-height: 622px;
+  }
+  .details {
+    max-width: 230px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .appointment-address {
+    width: 100%;
+    min-height: 550px;
+  }
+}
+@media (min-width: 300px) and (max-width: 767px) {
+  .appointment-address {
+    width: 100%;
+    min-height: 550px;
+  }
+  .details {
+    max-width: 230px;
+  }
+}
+
+select {
+  -webkit-appearance: none;
+  appearance: none;
+  color: var(--text-color);
+  opacity: var(--text-opacity);
+}
+option:not(:first-of-type) {
+  color: white;
+}
+
+.select-wrapper {
+  position: relative;
+}
+
+.select-toggle {
+  color: #ffffff;
+  height: 24px;
+  @apply absolute top-4 right-3 pointer-events-none;
+  svg {
+    @apply text-2xl;
+  }
+  padding-left: 3px !important;
+}
+
+.form {
+  background: transparent;
+  width: 100%;
+  // min-width: 400px;
+  max-width: 580px;
+  // max-width: 34.9rem;
+  // min-height: 37.2rem;
+  // max-height: 597px;
+
+  border-radius: 20px;
+  @apply min-[1833px]:h-[595px] max-[1832px]:h-[621px] max-[1209px]:h-[598px] max-[1023px]:h-[621px] max-[850px]:h-[651px] max-[500px]:h-[621px] max-[360px]:h-[651px] min-[1210px]:min-w-[350px] md:min-w-[50%] min-w-full;
+}
+
+.address-box {
+  border-radius: 16px;
+  border: 0.5px solid #aaa;
+  background: #fff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  @apply min-[1210px]:w-[19.6vw] min-[1210px]:max-w-[310px] w-auto min-[1210px]:min-h-[420px] min-h-[300px];
+}
+
+//.contact_body h1,
+//h2,
+//h3,
+//h4,
+//p,
+//span {
+//  font-family: "Times New Roman", Times, serif;
+//}

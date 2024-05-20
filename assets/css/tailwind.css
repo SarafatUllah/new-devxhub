@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+}
+@layer components {
+  * {
+    @apply scroll-smooth;
+  }
+  .container-fluid {
+    @apply px-5 w-full md:px-20 lg:px-[30px] dx:px-[7%] 2dx:px-[80px] 3dx:px-[8%] 3xl:px-[150px] 4xl:px-[12%];
+  }
+}
+@layer utilities {
+}
+
+/* for page */
+.page-enter-active,
+.page-leave-active {
+  transition: opacity 0.5s ease;
+}
+.page-enter-from,
+.page-leave-to {
+  opacity: 0;
+}
+
+/* for layout  */
+.my-layouts-enter-active,
+.my-layouts-leave-active {
+  transition: opacity 0.5s ease;
+}
+.my-layouts-enter-from,
+.my-layouts-leave-to {
+  opacity: 0;
+}
+
+.globalFadeInFadeOut-enter-active,
+.globalFadeInFadeOut-leave-active {
+  transition: opacity 0.5s ease-in-out;
+}
+.globalFadeInFadeOut-enter-from,
+.globalFadeInFadeOut-leave-to {
+  opacity: 0;
+}
+.font-family-times {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.h_tag_third {
+  @apply text-xl font-semibold text-[#313131];
+}
+
+.p_tag_third {
+  @apply text-sm font-normal text-[#515B6F];
+}
