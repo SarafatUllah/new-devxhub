@@ -4,8 +4,7 @@ import { breakpointsTailwind, useBreakpoints } from "@vueuse/core";
 
 const breakpoints = useBreakpoints(breakpointsTailwind);
 const isLarge = breakpoints.greaterOrEqual("lg");
-// const { data: Services } = useFetch<Service[]>("/api/posts/service");
-const Services = ref(null)
+const { data: Services } = useFetch<Service[]>("/api/posts/service");
 
 const initialStateStackCard = ref<any>([]);
 

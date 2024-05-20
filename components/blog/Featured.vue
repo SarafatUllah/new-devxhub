@@ -2,8 +2,7 @@
 import { Post } from "~/types/posts";
 import defaultImage from "~/assets/img/blog/image-not-found.webp";
 
-// const { data: featured } = useFetch<Post[]>("/api/blogs/featured");
-const featured = ref(null)
+const { data: featured } = useFetch<Post[]>("/api/blogs/featured");
 const dateFormat = (date: string) => {
   const options: Intl.DateTimeFormatOptions = {
     year: "numeric",

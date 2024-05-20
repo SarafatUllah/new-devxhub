@@ -4,8 +4,8 @@ import { useBlogStore } from "~/stores/pages/blog/blog";
 const { setSearchPost } = useBlogStore();
 const route = useRoute();
 
-// const { data: categories } = useFetch<Categories>("/api/blogs/categories");
-const categories = ref(null)
+const { data: categories } = useFetch<Categories>("/api/blogs/categories");
+
 const searchBySlug = (searchText: string) => {
   setSearchPost(searchText);
 };

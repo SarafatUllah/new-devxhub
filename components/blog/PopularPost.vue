@@ -1,9 +1,7 @@
 <script lang="ts" setup>
-import { NULL } from "sass";
 import { Post } from "~/types/posts";
 
-// const { data: PopularPost } = useFetch<Post>("/api/blogs/popularPost");
-const PopularPost = ref(null)
+const { data: PopularPost } = useFetch<Post>("/api/blogs/popularPost");
 const dateFormat = (date: string) => {
   const options: Intl.DateTimeFormatOptions = {
     year: "numeric",
